@@ -1,0 +1,4 @@
+﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
+"1","COc1ccc2n(C(=O)c3ccc(Cl)cc3)c(C)c(CC(O)=O)c2c1","INDOMETACIN","DRUG","ACUTE GOUT","ACUTE GOUT","CONDITION","86.36103867210943","3","Medline_4726072,Medline_5740565,Medline_14112899","Prepositional"
+"2","COc1ccc2cc(ccc2c1)[C@H](C)C(O)=O","NAPROXEN","DRUG","ACUTE GOUT","ACUTE GOUT","CONDITION","78.39686549514717","2","Medline_857623,Medline_843115","Prepositional,Treat"
+"3","CCCCC1C(=O)N(N(C1=O)c1ccccc1)c1ccccc1","PHENYLBUTAZONE","DRUG","ACUTE GOUT","ACUTE GOUT","CONDITION","82.59616912241754","3","Medline_4726072,Medline_857623,Medline_843115","Prepositional"

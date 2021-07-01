@@ -1,0 +1,3 @@
+﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
+"3","CD79A","CD79A","GENE","ANGIITIDES","ANGIITIDES","CONDITION","90.90361310486799","2","Medline_1257704,Medline_7039551","Prepositional,Association"
+"8","COc1ccc2cc(ccc2c1)[C@H](C)C(O)=O","NAPROXEN","DRUG","ANGIITIDES","ANGIITIDES","CONDITION","84.56844849148204","2","Medline_7387310,Medline_285374","Association,AssociationPositive"

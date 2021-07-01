@@ -1,0 +1,6 @@
+﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
+"0","OC(=O)CCCc1ccc(cc1)N(CCCl)CCCl","CHLORAMBUCIL","DRUG","BEHCET SYNDROME","BEHCET SYNDROME","CONDITION","88.04199054295854","4","Medline_501750,Medline_6634072,Medline_5405344,Medline_7299062","Prepositional,Treat"
+"1","IFNG","IFNG","GENE","BEHCET SYNDROME","BEHCET SYNDROME","CONDITION","94.74166380297805","4","Medline_6172968,Medline_6404745,Medline_6176541,Medline_6813789","Prepositional,Association"
+"4","Cn1cnc(c1Sc1ncnc2nc[nH]c12)[N+]([O-])=O","AZATHIOPRINE","DRUG","BEHCET SYNDROME","BEHCET SYNDROME","CONDITION","91.56009624598347","2","Medline_5703868,Medline_4451392","Prepositional"
+"5","COc1cc2CC[C@H](NC(C)=O)c3cc(=O)c(OC)ccc3-c2c(OC)c1OC","COLCHICINE","DRUG","BEHCET SYNDROME","BEHCET SYNDROME","CONDITION","92.69337533332155","6","Medline_611053,Medline_72942,Medline_6724071,Medline_6778795,Medline_78172,Medline_7150387","TREAT,Prepositional"
+"8","ClCCN(CCCl)P1(=O)NCCCO1","CYCLOPHOSPHAMIDE","DRUG","BEHCET SYNDROME","BEHCET SYNDROME","CONDITION","89.09693867761175","2","Medline_4238577,Medline_6788612","Prepositional,Treat"

@@ -1,0 +1,4 @@
+﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
+"0","IGHM","IGHM","GENE","ANGIITIDES","ANGIITIDES","CONDITION","89.64902086460194","1","Medline_1162315","Regulation"
+"1","CP","CP","GENE","ANGIITIDES","ANGIITIDES","CONDITION","77.17717450406444","1","Medline_5157662","Prepositional"
+"2","CD79A","CD79A","GENE","ANGIITIDES","ANGIITIDES","CONDITION","90.90361310486799","1","Medline_1257704","Prepositional"

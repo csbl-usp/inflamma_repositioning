@@ -1,0 +1,6 @@
+﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
+"4","CN[C@H](CC(C)C)C(=O)N[C@@H]1[C@H](O)c2ccc(Oc3cc4cc(Oc5ccc(cc5Cl)[C@@H](O)[C@@H]5NC(=O)[C@H](NC(=O)[C@@H]4NC(=O)[C@H](CC(N)=O)NC1=O)c1ccc(O)c(c1)-c1c(O)cc(O)cc1[C@H](NC5=O)C(O)=O)c3O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O[C@H]1C[C@](C)(N)[C@H](O)[C@H](C)O1)c(Cl)c2","VANCOMYCIN","DRUG","ANGIITIDES","ANGIITIDES","CONDITION","82.14894368476196","2","Medline_2937155,Medline_3670205","AssociationPositive"
+"6","IGHM","IGHM","GENE","ANGIITIDES","ANGIITIDES","CONDITION","89.64902086460194","2","Medline_1162315,Medline_3122706","Regulation,Prepositional"
+"7","CD79A","CD79A","GENE","ANGIITIDES","ANGIITIDES","CONDITION","90.90361310486799","2","Medline_1257704,Medline_7039551","Prepositional,Association"
+"9","CC(N)Cc1ccccc1","ADDERALL","DRUG","ANGIITIDES","ANGIITIDES","CONDITION","81.65733528796353","2","Medline_841359,Medline_6462986","AssociationPositive,Similarity"
+"20","COc1ccc2cc(ccc2c1)[C@H](C)C(O)=O","NAPROXEN","DRUG","ANGIITIDES","ANGIITIDES","CONDITION","84.56844849148204","2","Medline_7387310,Medline_285374","Association,AssociationPositive"

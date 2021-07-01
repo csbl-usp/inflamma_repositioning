@@ -1,0 +1,6 @@
+﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
+"3","RITUXIMAB","RITUXIMAB","DRUG","COGAN SYNDROME","COGAN SYNDROME","CONDITION","72.50894241333083","2","Pmcoa_2907322,Medline_20550723","Regulation"
+"4","APTX","APTX","GENE","COGAN SYNDROME","COGAN SYNDROME","CONDITION","74.37210918145985","5","Medline_17519253,Patent_WO2006044918A2,Medline_16193447,Pmcoa_3547747,Medline_20399152","Prepositional,AssociationNegative,Association,Regulation"
+"9","SETX","SETX","GENE","COGAN SYNDROME","COGAN SYNDROME","CONDITION","74.59992458708476","6","Pmcoa_2749023,Medline_19744353,Pmcoa_2330029,Medline_19696032,Medline_16636238,Pmcoa_3145960","Regulation,Prepositional"
+"10","PTPRJ","PTPRJ","GENE","COGAN SYNDROME","COGAN SYNDROME","CONDITION","58.333333333333336","2","Medline_23944678,Pmcoa_4043658","Prepositional"
+"13","GJB2","GJB2","GENE","COGAN SYNDROME","COGAN SYNDROME","CONDITION","59.789285255616484","2","Medline_23944678,Pmcoa_4043658","Prepositional"

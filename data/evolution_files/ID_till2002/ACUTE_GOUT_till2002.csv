@@ -1,0 +1,6 @@
+﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
+"1","COc1cc2CC[C@H](NC(C)=O)c3cc(=O)c(OC)ccc3-c2c(OC)c1OC","COLCHICINE","DRUG","ACUTE GOUT","ACUTE GOUT","CONDITION","88.2094463112815","7","Medline_3820512,Medline_5859550,Medline_3314832,Medline_7120118,Medline_2196674,Patent_WO2001091807A2,Medline_3288754","Prepositional,Treat"
+"2","COc1ccc2cc(ccc2c1)[C@H](C)C(O)=O","NAPROXEN","DRUG","ACUTE GOUT","ACUTE GOUT","CONDITION","78.39686549514717","2","Medline_857623,Medline_843115","Prepositional,Treat"
+"3","COc1ccc2n(C(=O)c3ccc(Cl)cc3)c(C)c(CC(O)=O)c2c1","INDOMETACIN","DRUG","ACUTE GOUT","ACUTE GOUT","CONDITION","86.36103867210943","4","Medline_5740565,Medline_4726072,Medline_14112899,Medline_8441139","Prepositional,Treat"
+"4","CCCCC1C(=O)N(N(C1=O)c1ccccc1)c1ccccc1","PHENYLBUTAZONE","DRUG","ACUTE GOUT","ACUTE GOUT","CONDITION","82.59616912241754","4","Medline_4726072,Medline_6988172,Medline_857623,Medline_843115","Prepositional"
+"9","O=c1ncnc2[nH][nH]cc12","ALLOPURINOL","DRUG","ACUTE GOUT","ACUTE GOUT","CONDITION","84.61513691888283","2","Medline_3330140,Medline_11579724","Prepositional,AssociationNegative"

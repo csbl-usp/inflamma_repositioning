@@ -1,0 +1,5 @@
+﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
+"0","EPO","EPO","GENE","POLYCYTHEMIA","POLYCYTHEMIA","CONDITION","84.52030210361359","9","Medline_5335677,Pmcoa_2138369,Medline_5523707,Medline_441509,Medline_425968,Medline_18988350,Medline_177822,Medline_5288253,Medline_432548","Association,Prepositional,Regulation,AssociationNegative,AssociationPositive"
+"2","CS(=O)(=O)OCCCCOS(C)(=O)=O","BUSULFAN","DRUG","POLYCYTHEMIA","POLYCYTHEMIA","CONDITION","80.44895251079981","3","Medline_5498020,Medline_13756210,Medline_4431247","Prepositional,Treat"
+"3","CCc1nc(N)nc(N)c1-c1ccc(Cl)cc1","PYRIMETHAMINE","DRUG","POLYCYTHEMIA","POLYCYTHEMIA","CONDITION","77.87448508835546","3","Medline_13602643,Medline_13553980,Medline_14247995","Prepositional,Treat"
+"7","CC(=O)Oc1ccccc1C(O)=O","ASPIRIN","DRUG","POLYCYTHEMIA","POLYCYTHEMIA","CONDITION","87.8005165495069","2","Medline_4479160,Medline_307109","Prepositional"

@@ -1,0 +1,7 @@
+﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
+"0","O=c1ncnc2[nH][nH]cc12","ALLOPURINOL","DRUG","CHRONIC GOUT","CHRONIC GOUT","CONDITION","83.55012732371165","8","Medline_21862966,Medline_5736585,Medline_17910294,Pmcoa_3275700,Pmcoa_2672460,Pmcoa_3249158,Medline_19436671,Medline_15570646","Prepositional,Treat,Association"
+"1","COc1cc2CC[C@H](NC(C)=O)c3cc(=O)c(OC)ccc3-c2c(OC)c1OC","COLCHICINE","DRUG","CHRONIC GOUT","CHRONIC GOUT","CONDITION","63.4257288556603","2","Medline_19789133,Patent_WO2011022532A2","Treat"
+"3","PEGLOTICASE","PEGLOTICASE","DRUG","CHRONIC GOUT","CHRONIC GOUT","CONDITION","75.69460643494831","2","Medline_22035516,Medline_20238366","Treat,Prepositional"
+"5","CC(C)COc1ccc(cc1C#N)-c1nc(C)c(s1)C(O)=O","FEBUXOSTAT","DRUG","CHRONIC GOUT","CHRONIC GOUT","CONDITION","81.21922677776763","3","Medline_19499090,Pmcoa_2643102,Medline_19337428","AssociationNegative,Prepositional"
+"6","CCCN(CCC)S(=O)(=O)c1ccc(cc1)C(O)=O","PROBENECID","DRUG","CHRONIC GOUT","CHRONIC GOUT","CONDITION","73.0595426709483","5","Medline_13459634,Medline_13895435,Pmcoa_3249158,Patent_US20080051428,Patent_US20100160367","Prepositional,Treat"
+"8","RILONACEPT","RILONACEPT","DRUG","CHRONIC GOUT","CHRONIC GOUT","CONDITION","61.341141177414556","2","Medline_19635719,Pmcoa_2732898","Prepositional"
