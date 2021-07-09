@@ -1,0 +1,7 @@
+Table S1 - names and description of 27 CIDs
+Table S2 - genes and drugs associated with CIDs
+Table S3 - exclusive CID genes used to run drug repositioning framework
+Table S4 - drugs affecting exclusive CID genes
+Table S5 - 889 potential drug repositioning candidates
+Table S6 - drugs selected for manual curation and WDD mistake correction
+Table S7 - drugs curated for actual repositioning potential according to drug-gene and gene-disease mechanisms

@@ -18,6 +18,9 @@ df <- list.files(path = path,pattern = ".csv",full.names = T) %>%
   bind_rows %>%
   as.data.frame()
 
+write.csv(df,file = "tables/table_S2_genes_and_drugs_CIDs_WDD.csv",
+          row.names = F)
+
 #get drugs that have known connections with inflammatory diseases
 dis_drug_edges <- df %>%
   dplyr::filter(Source.type=="DRUG" & Target.type=="CONDITION") %>%
@@ -57,7 +60,7 @@ exclusive_genes <- degree %>% #827 exclusive genes
 exclusive_genes_diseases <- dis_gene_edges %>%
   filter(Source %in% exclusive_genes$Id)
 
-write.csv(exclusive_genes_diseases,"tables/table_S1_exclusive_genes.csv",row.names = F)
+write.csv(exclusive_genes_diseases,"tables/table_S3_exclusive_genes.csv",row.names = F)
 
 #load all files for genes searched in WDD (big drug-gene interaction table)
 drugs_all <- fread("data/drugs_all_50percent_2documents.csv")
@@ -69,6 +72,9 @@ drugs_exclusive <- drugs_all %>%
 
 length(unique(drugs_exclusive$Source)) #2367 drugs
 length(unique(drugs_exclusive$Target)) #704 genes
+
+write.csv(drugs_exclusive,file="tables/table_S4_drugs_affecting_exclusive_CID_genes.csv",
+          row.names = F,quote = F)
 
 #remove drugs that are directly connected to ICDs
 #(Step D1)
@@ -89,11 +95,8 @@ drugs_exclusive_c <- drugs_exclusive_b %>%
 length(unique(drugs_exclusive_c$Source))  #889 drugs
 length(unique(drugs_exclusive_c$Target)) #276 genes
 
-###drugs_exclusive_c is the source for the new table_S2_potential###
-#with this table, we curated ~25% of the relationships to detected
-#drugs with further potential for repositioning to be used in chronic
-#inflammatory diseases
-table_S2_new <- merge(drugs_exclusive_c,dis_gene_edges,
+###drugs_exclusive_c is the source for the table_WDD_mistakes_curation###
+table_S5_potential_repositioning_drugs <- merge(drugs_exclusive_c,dis_gene_edges,
                       by.x="Target",by.y="Source") %>%
   dplyr::select(2,1,7,5,10) %>%
   rename(Drug=Source,Gene=Target,ICD=Target.y,
@@ -101,25 +104,114 @@ table_S2_new <- merge(drugs_exclusive_c,dis_gene_edges,
   dplyr::select(Drug,Gene,ICD,gene_ICD_ref,drug_gene_ref)
 
 #table to be used for curation of potential repositioning candidates
-write.csv(table_S2_new,file="tables/table_S2_potential_drugs_all.csv",row.names = F)
+write.csv(table_S5_potential_repositioning_drugs,
+          file = "tables/table_S5_potential_repositioning_candidates.csv",
+          row.names = F,quote = T)
 
-###select 200 drugs to be manually curated (keep drugs already curated)###
-#these drugs had been curated previously following the method described
-#in the paper
-table_S2_selected <- fread("data/selected_S2.csv") 
+###select 225 drugs to be manually curated###
+#we curated ~25% of the relationships to detected drugs with 
+#potential for repositioning to be used for CIDs
+# table_S6_selected_drugs_to_curate <- table_S5_potential_repositioning_drugs %>%
+#   dplyr::sample_n(size=225,replace = F)
+# 
+# write.csv(table_S6_selected_drugs_to_curate,
+#           file="tables/table_S6_WDD_mistakes_curation.csv",
+#           row.names = F)
+#THESE LINES ARE COMMENTED SINCE RUNNING THEM AGAIN WILL GENERATE A NEW
+#SAMPLE OF 225 DRUGS. NEXT, WE PROVIDE THE ORIGINAL 225 CURATED DRUGS
+#THAT WERE INCLUDED IN THE MANUSCRIPT WITH THE CURATION PERFORMED
 
-table_S2_selected_new_keep <- table_S2_new %>%
-  dplyr::filter(Drug %in% table_S2_selected$Drug) %>%
-  mutate(keep_new="keep")
+table_S6_selected_drugs_to_curate <- fread("data/table_S6_WDD_mistakes_curation.csv")
 
-table_S2_selected_new_rest <- table_S2_new %>%
-  dplyr::filter(!Drug %in% table_S2_selected_new_keep$Drug) %>%
-  dplyr::sample_n(size=105,replace = F) %>%
-  mutate(keep_new="new")
+length(unique(table_S6_selected_drugs_to_curate$Gene)) #112 exclusive genes
+length(unique(table_S6_selected_drugs_to_curate$Drug)) #225 drugs
+length(unique(table_S6_selected_drugs_to_curate$ICD)) #18 CIDs
 
-table_S2_selected_new_final <- rbind(table_S2_selected_new_keep,table_S2_selected_new_rest)  
-#save this table as table S3 - selected drugs (~25% of the 889 potential drugs)
-write.csv(table_S2_selected_new_final,
-          file="tables/table_S3_potential_drugs_selected.csv",
-          row.names = F)
+#number of false gene-disease associations
+table_S6_selected_drugs_to_curate %>%
+  filter(!duplicated(Gene)) %>%
+  pull(gene_ICD_TRUE_FALSE) %>%
+  table() #29 False, 83 True
 
+#number of false drug-gene associations
+table_S6_selected_drugs_to_curate %>%
+  filter(gene_ICD_TRUE_FALSE=="TRUE") %>%
+  filter(!duplicated(paste0(Drug,Gene))) %>%
+  pull(drug_gene_TRUE_FALSE) %>%
+  table() #50 False, 117 True
+
+#Drug-gene-disease table without WDD mistakes
+drug_gene_CID_to_curate_for_potential <- table_S6_selected_drugs_to_curate %>%
+  filter(gene_ICD_TRUE_FALSE=="TRUE",
+         drug_gene_TRUE_FALSE=="TRUE")
+
+length(unique(drug_gene_CID_to_curate_for_potential$Drug)) #117 drugs
+length(unique(drug_gene_CID_to_curate_for_potential$Gene)) #60 genes
+length(unique(drug_gene_CID_to_curate_for_potential$ICD)) #12 CIDs
+
+#load curated drug-gene-disease with YES/NO for actual repo potential 
+#this table was created outside R following the manual curation steps
+#described in the manuscript
+table_S7_curated_repositioning_table <- readxl::read_excel("tables/table_S7_curated_potential.xlsx")
+
+#Potential after manual curation (drug-gene and gene-disease mechanism)
+table(table_S7_curated_repositioning_table$`Drug repo potential`)
+#NO potential = 28
+#YES potential = 90
+
+only_true_potential <- table_S7_curated_repositioning_table %>%
+  filter(`Drug repo potential`=="YES")
+
+length(unique(only_true_potential$Gene)) #44 genes
+length(unique(only_true_potential$ICD)) #11 CIDs
+
+#FDA approval all
+table(table_S7_curated_repositioning_table$`FDA approval`)
+#NO (discontinued) = 4
+#Not found = 74
+#YES = 40
+
+#FDA approval potential
+table(only_true_potential$`FDA approval`)
+#NO (discontinued) = 3
+#Not found = 55
+#YES = 32
+
+#EMA approval all
+table(table_S7_curated_repositioning_table$`EMA approval`)
+#NO (discontinued) = 13
+#Not found = 65
+#YES = 40
+
+#EMA approval potential
+table(only_true_potential$`EMA approval`)
+#NO (discontinued) = 11
+#Not found = 49
+#YES = 30
+
+#Litereature evidence pre 2018
+table(table_S7_curated_repositioning_table$`Literature evidence (pre 2018)`)
+#NO 78
+#YES 40
+
+#Litereature evidence post 2018
+table(table_S7_curated_repositioning_table$`Literature evidence (post 2018)`)
+#NO 83
+#YES 30
+
+#Clinical trial
+table(table_S7_curated_repositioning_table$`Clinical trials`)
+#NO (discontinued) = 108
+#YES = 10
+
+
+#No previouse literature evidence
+no_literature <- only_true_potential %>%
+  filter(`Literature evidence (pre 2018)`=="NO",
+         `Literature evidence (post 2018)`=="NO",
+         `Clinical trials`=="NO")
+
+no_literature_mabs <- no_literature %>%
+  filter(grepl("mab",tolower(Drug)))
+
+write.csv(no_literature,"data/drugs_without_literature.csv",row.names = F)
