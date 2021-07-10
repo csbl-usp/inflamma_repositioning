@@ -1,3 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"3","BW52","BW52","GENE","AORTIC ARCH SYNDROME","AORTIC ARCH SYNDROME","CONDITION","67.64002631242974","2","Medline_1360956,Medline_1360952","Prepositional,Association"
-"5","C[C@H](CS)C(=O)N1CCC[C@H]1C(O)=O","CAPTOPRIL","DRUG","AORTIC ARCH SYNDROME","AORTIC ARCH SYNDROME","CONDITION","85.53661087312054","4","Medline_2857559,Medline_6140907,Medline_6149736,Medline_2908665","Prepositional"

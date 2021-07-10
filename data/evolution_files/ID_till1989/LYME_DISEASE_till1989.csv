@@ -1,4 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"3","IL1","IL1","GENE","LYME DISEASE","LYME DISEASE","CONDITION","85.00140952443354","2","Medline_2789287,Medline_2784972","AssociationPositive,Association"
-"4","IGHM","IGHM","GENE","LYME DISEASE","LYME DISEASE","CONDITION","90.10037862315836","5","Medline_6884950,Medline_2716745,Medline_4078585,Medline_6659638,Medline_3956539","Prepositional"
-"7","CC1(C)S[C@@H]2[C@H](NC(*)=O)C(=O)N2[C@H]1C(O)=O","PENICILLIN","DRUG","LYME DISEASE","LYME DISEASE","CONDITION","88.58187708447917","2","Medline_3883177,Medline_3130607","Prepositional"

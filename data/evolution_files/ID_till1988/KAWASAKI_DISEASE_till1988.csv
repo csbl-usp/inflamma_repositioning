@@ -1,5 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"0","Oc1ccccc1C([O-])=O","SALICYLATE","DRUG","KAWASAKI DISEASE","KAWASAKI DISEASE","CONDITION","82.92476431193265","2","Medline_6502354,Medline_553328","Prepositional"
-"1","FN1","FN1","GENE","KAWASAKI DISEASE","KAWASAKI DISEASE","CONDITION","82.60433097954514","2","Medline_3954421,Medline_3963880","Prepositional"
-"2","CC(=O)Oc1ccccc1C(O)=O","ASPIRIN","DRUG","KAWASAKI DISEASE","KAWASAKI DISEASE","CONDITION","93.16134277163549","3","Medline_3998933,Medline_3148261,Medline_6502354","Prepositional,Treat"
-"3","CCCCC[C@H](O)\C=C\[C@H]1[C@H](O)CC(=O)[C@@H]1C\C=C/CCCC(O)=O","DINOPROSTONE","DRUG","KAWASAKI DISEASE","KAWASAKI DISEASE","CONDITION","83.87566453897527","2","Medline_2454025,Medline_3162772","Prepositional"

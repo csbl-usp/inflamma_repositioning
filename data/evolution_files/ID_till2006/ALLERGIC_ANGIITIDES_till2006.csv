@@ -1,4 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"1","O=C(Nc1cccc2c1oc(cc2=O)-c1nn[nH]n1)c1ccc(OCCCCc2ccccc2)cc1","PRANLUKAST","DRUG","ALLERGIC ANGIITIDES","ALLERGIC ANGIITIDES","CONDITION","75.82875905120387","2","Medline_15578247,Medline_11393418","Aggravate,Treat"
-"11","FAS","FAS","GENE","ALLERGIC ANGIITIDES","ALLERGIC ANGIITIDES","CONDITION","7.1585747968351265","3","Patent_US20030224380,Patent_US20050009031,Patent_WO2003054143A2","Regulation"
-"17","CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(O)=O)CC1)c1cccc(\C=C\c2ccc3ccc(Cl)cc3n2)c1","MONTELUKAST","DRUG","ALLERGIC ANGIITIDES","ALLERGIC ANGIITIDES","CONDITION","86.74735309809311","2","Medline_12958007,Medline_15060812","Association,Treat"

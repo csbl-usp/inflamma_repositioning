@@ -74,7 +74,7 @@ length(unique(drugs_exclusive$Source)) #2367 drugs
 length(unique(drugs_exclusive$Target)) #704 genes
 
 write.csv(drugs_exclusive,file="tables/table_S4_drugs_affecting_exclusive_CID_genes.csv",
-          row.names = F,quote = F)
+          row.names = F,quote = T)
 
 #remove drugs that are directly connected to ICDs
 #(Step D1)

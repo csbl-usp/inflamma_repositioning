@@ -1,6 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"2","C[S@+](CC[C@H](N)C(O)=O)C[C@H]1O[C@H]([C@H](O)[C@@H]1O)n1cnc2c(N)ncnc12","SAM-E","DRUG","FIBROMYALGIA","FIBROMYALGIA","CONDITION","82.57934480996826","2","Medline_3318438,Medline_1925418","Prepositional,Association,Treat"
-"3","CN(C)CCC=C1c2ccccc2C=Cc2ccccc12","CYCLOBENZAPRINE","DRUG","FIBROMYALGIA","FIBROMYALGIA","CONDITION","86.12798933176818","5","Medline_2532682,Medline_1856814,Medline_2481741,Medline_3464210,Medline_3058130","Treat,Association"
-"5","CN(C)CCC=C1c2ccccc2CCc2ccccc12","AMITRIPTYLINE","DRUG","FIBROMYALGIA","FIBROMYALGIA","CONDITION","93.72227466532952","2","Medline_2161315,Medline_1856813","Prepositional"
-"7","CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC[C@]1(C)CCc2c(C)c(O)c(C)c(C)c2O1","VITAMIN E","DRUG","FIBROMYALGIA","FIBROMYALGIA","CONDITION","72.33400836119512","2","Pmcoa_5301530,Medline_29648401","Treat"
-"19","SUBSTANCE P","SUBSTANCE P","GENE","FIBROMYALGIA","FIBROMYALGIA","CONDITION","85.64050368252565","2","Medline_2466119,Medline_7526868","Prepositional"

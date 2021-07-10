@@ -1,3 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"0","C[C@]12CC(=O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@]34C)[C@@H]1CC[C@]2(O)C(=O)CO","CORTISONE","DRUG","BEHCET SYNDROME","BEHCET SYNDROME","CONDITION","73.81902862601628","1","Medline_14868132","Prepositional"
-"1","Cn1cnc(c1Sc1ncnc2nc[nH]c12)[N+]([O-])=O","AZATHIOPRINE","DRUG","BEHCET SYNDROME","BEHCET SYNDROME","CONDITION","91.56009624598347","1","Medline_5703868","Prepositional"

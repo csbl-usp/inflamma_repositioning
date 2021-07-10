@@ -1,4 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"3","SETX","SETX","GENE","COGAN SYNDROME","COGAN SYNDROME","CONDITION","74.59992458708476","6","Medline_19744353,Pmcoa_2749023,Pmcoa_2330029,Medline_19696032,Medline_16636238,Pmcoa_3145960","Regulation,Prepositional"
-"4","APTX","APTX","GENE","COGAN SYNDROME","COGAN SYNDROME","CONDITION","74.37210918145985","5","Medline_17519253,Patent_WO2006044918A2,Medline_16193447,Pmcoa_3547747,Medline_20399152","Prepositional,AssociationNegative,Association,Regulation"
-"10","RITUXIMAB","RITUXIMAB","DRUG","COGAN SYNDROME","COGAN SYNDROME","CONDITION","72.50894241333083","2","Medline_20550723,Pmcoa_2907322","Regulation"

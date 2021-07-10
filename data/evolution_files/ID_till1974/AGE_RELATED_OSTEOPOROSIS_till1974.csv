@@ -1,4 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"1","C[C@]12CC(=O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@]34C)[C@@H]1CC[C@]2(O)C(=O)CO","CORTISONE","DRUG","AGE RELATED OSTEOPOROSIS","AGE RELATED OSTEOPOROSIS","CONDITION","93.35858620128819","3","Medline_14268301,Medline_13717969,Medline_6027412","AssociationPositive"
-"8","OP(O)(=O)O*","PHOSPHATE","DRUG","AGE RELATED OSTEOPOROSIS","AGE RELATED OSTEOPOROSIS","CONDITION","91.92181127579167","2","Medline_4208554,Medline_6018063","Prepositional"
-"18","C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@]34C)[C@@H]1CC[C@]2(O)C(=O)CO","HYDROCORTISONE","DRUG","AGE RELATED OSTEOPOROSIS","AGE RELATED OSTEOPOROSIS","CONDITION","94.08435289710356","2","Medline_4248799,Medline_5543296","Prepositional,AssociationPositive"

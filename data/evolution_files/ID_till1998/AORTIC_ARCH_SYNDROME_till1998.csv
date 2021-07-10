@@ -1,5 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"0","CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(cc1)C(=O)N[C@@H](CCC(O)=O)C(O)=O","METHOTREXATE","DRUG","AORTIC ARCH SYNDROME","AORTIC ARCH SYNDROME","CONDITION","89.72543069329527","2","Medline_9631760,Medline_7913334","Prepositional,Treat"
-"1","HLA-B","HLA-B","GENE","AORTIC ARCH SYNDROME","AORTIC ARCH SYNDROME","CONDITION","79.06794626532823","2","Medline_7903491,Medline_9951811","Prepositional"
-"3","BW52","BW52","GENE","AORTIC ARCH SYNDROME","AORTIC ARCH SYNDROME","CONDITION","67.64002631242974","2","Medline_1360956,Medline_1360952","Prepositional,Association"
-"7","C[C@H](CS)C(=O)N1CCC[C@H]1C(O)=O","CAPTOPRIL","DRUG","AORTIC ARCH SYNDROME","AORTIC ARCH SYNDROME","CONDITION","85.53661087312054","4","Medline_2857559,Medline_6140907,Medline_6149736,Medline_2908665","Prepositional"

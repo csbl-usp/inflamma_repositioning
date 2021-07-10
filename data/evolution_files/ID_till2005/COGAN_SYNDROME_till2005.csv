@@ -1,7 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"0","O[C@H](COc1ccc2oc(cc(=O)c2c1)C(O)=O)COc1cccc2oc(cc(=O)c12)C(O)=O","CROMOGLYCATE","DRUG","COGAN SYNDROME","COGAN SYNDROME","CONDITION","62.1178937961109","1","Medline_2882254","Prepositional"
-"1","CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(cc1)C(=O)N[C@@H](CCC(O)=O)C(O)=O","METHOTREXATE","DRUG","COGAN SYNDROME","COGAN SYNDROME","CONDITION","71.39665209059694","1","Medline_8895174","Prepositional"
-"2","APTX","APTX","GENE","COGAN SYNDROME","COGAN SYNDROME","CONDITION","74.37210918145985","1","Medline_16193447","Prepositional"
-"3","CCC1NC(=O)C(C(O)C(C)C\C=C\C)N(C)C(=O)C(C(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(C)NC(=O)C(C)NC(=O)C(CC(C)C)N(C)C(=O)C(NC(=O)C(CC(C)C)N(C)C(=O)CN(C)C1=O)C(C)C","CICLOSPORIN","DRUG","COGAN SYNDROME","COGAN SYNDROME","CONDITION","72.25250200374855","1","Medline_11054005","Association"
-"4","MPO","MPO","GENE","COGAN SYNDROME","COGAN SYNDROME","CONDITION","62.07212591918241","1","Medline_8913096","Association"
-"5","ClCCN(CCCl)P1(=O)NCCCO1","CYCLOPHOSPHAMIDE","DRUG","COGAN SYNDROME","COGAN SYNDROME","CONDITION","71.89859340208355","1","Medline_8187429","Treat"

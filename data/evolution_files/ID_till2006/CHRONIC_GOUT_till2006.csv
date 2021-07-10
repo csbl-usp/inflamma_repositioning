@@ -1,4 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"0","CCCN(CCC)S(=O)(=O)c1ccc(cc1)C(O)=O","PROBENECID","DRUG","CHRONIC GOUT","CHRONIC GOUT","CONDITION","73.0595426709483","2","Medline_13459634,Medline_13895435","Prepositional"
-"1","UOX","UOX","GENE","CHRONIC GOUT","CHRONIC GOUT","CONDITION","58.333333333333336","1","Pmcoa_3226106","AssociationNegative"
-"2","O=c1ncnc2[nH][nH]cc12","ALLOPURINOL","DRUG","CHRONIC GOUT","CHRONIC GOUT","CONDITION","83.55012732371165","2","Medline_5736585,Medline_15570646","Prepositional"

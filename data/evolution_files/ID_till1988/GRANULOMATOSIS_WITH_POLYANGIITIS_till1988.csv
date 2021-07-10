@@ -1,3 +1,0 @@
-﻿"Link ID","Source name","Source Display Name","Source type","Target name","Target Display Name","Target type","Confidence","Documents","Document IDs","Relationships"
-"0","Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1.COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC","CO-TRIMOXAZOLE","DRUG","GRANULOMATOSIS WITH POLYANGIITIS","GRANULOMATOSIS WITH POLYANGIITIS","CONDITION","88.33838136922789","2","Medline_3261974,Medline_3263099","Treat,Prepositional"
-"1","ClCCN(CCCl)P1(=O)NCCCO1","CYCLOPHOSPHAMIDE","DRUG","GRANULOMATOSIS WITH POLYANGIITIS","GRANULOMATOSIS WITH POLYANGIITIS","CONDITION","95.87796941188924","9","Medline_5551803,Medline_7212903,Medline_759875,Medline_3263099,Medline_6868239,Medline_4045860,Medline_4698417,Medline_3365087,Medline_7377464","Prepositional,Treat"
